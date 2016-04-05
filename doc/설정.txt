@@ -1,0 +1,23 @@
+
+정보: Starting service Catalina
+4월 01, 2016 11:46:09 오후 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Apache Tomcat/7.0.47
+4월 01, 2016 11:46:10 오후 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+정보: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [156] milliseconds.
+4월 01, 2016 11:46:13 오후 org.stagemonitor.core.instrument.AgentLoader loadAgent
+정보: Trying to load agent @ C:\Project\workspace-ryu\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\spring-petclinic\WEB-INF\lib\stagemonitor-javaagent-0.19.0.jar
+INFO  MainStagemonitorClassFileTransformer - Registering ExceptionMeteredInstrumenter
+INFO  MainStagemonitorClassFileTransformer - Registering MeteredInstrumenter
+INFO  MainStagemonitorClassFileTransformer - Registering TimedInstrumenter
+INFO  MainStagemonitorClassFileTransformer - Registering GaugeInstrumenter
+INFO  MainStagemonitorClassFileTransformer - Registering ConnectionMonitoringInstrumenter
+INFO  MainStagemonitorClassFileTransformer - Registering MeterLoggingInstrumenter
+INFO  MainStagemonitorClassFileTransformer - Registering ProfilingInstrumenter
+INFO  MainStagemonitorClassFileTransformer - Registering MonitorRequestsInstrumenter
+INFO  MainStagemonitorClassFileTransformer - Registering ElasticsearchSearchQueryInstrumenter
+INFO  MainStagemonitorClassFileTransformer - Registering RemoteEjbMonitorInstrumenter
+INFO  MainStagemonitorClassFileTransformer - Registering SpringMvcRequestNameDeterminerInstrumenter
+INFO  MainStagemonitorClassFileTransformer - Retransforming 1 classes...
+INFO  MainStagemonitorClassFileTransformer - Retransformed 1 classes in 930 ms
+WARN  Stagemonitor - Measurement Session is not initialized: [application=null] [instance=null] [host=DESKTOP-4H6MAQ7]
+WARN  Stagemonitor - make sure the properties 'stagemonitor.instanceName' and 'stagemonitor.applicationName' are set and stagemonitor.properties is available in the classpath
